@@ -15,6 +15,7 @@
 --list-project-color: #EEEEEE;
 
 /* Other */
+--social-icon: #AFB1B8;
 
 }
 
@@ -295,7 +296,8 @@ ul {
     color: var(--title-text-color);
 }
 
-.text-team {      
+.text-team {   
+    margin-bottom: 16px;   
     font-size: 16px;
     line-height: calc(19 / 16);
     text-align: center;
@@ -304,6 +306,30 @@ ul {
 
 .desc-team {
     padding: 30px 0;    
+}
+
+/*social*/
+
+.list-social {
+   display: flex; 
+   justify-content: center;
+   gap: 10px;
+}
+
+.link-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 44px;
+    height: 44px;
+    background-color: var(--banner-background-color);
+    /* background-color: var(--team-background-color); */
+    border-radius: 50%;
+}
+
+.social-icon:hover {
+fill: var(--social-icon);
 }
 
 /* footer */
