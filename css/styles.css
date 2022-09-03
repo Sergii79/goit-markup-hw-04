@@ -151,7 +151,8 @@ ul {
     color: var(--basic-text-color);
 }
 
-.social-header {
+.header-icons {
+    fill: currentColor;
     margin-right: 10px;
 }
 
@@ -208,6 +209,26 @@ ul {
 }
 
 /* main content */
+
+.list-main-icons {
+    display: flex;    
+    gap: 30px;  
+    margin-bottom: 30px;  
+}
+
+.item-main-icons {    
+    display: flex;
+    width: 270px;
+    height: 120px;      
+    background-color: var(--team-background-color);
+}
+
+.social-main-icons {
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
 
 .list-main {    
     display: flex;
@@ -316,7 +337,7 @@ ul {
     background-color: var(--main-background-color);   
 }
 
-/*social*/
+/* social */
 
 .list-social {
    display: flex; 
@@ -340,11 +361,46 @@ ul {
     fill: currentColor;
 }
 .link-social:hover,
-.link-social:focus
- {
+.link-social:focus {
     color: var(--secondary-text-color);
     background-color: var(--accent-background-color);
 }
+
+/* client */
+
+.list-client {
+    display: flex;
+    gap: 30px;
+}
+
+.item-client {
+    
+    
+    
+}
+
+.link-client {
+  
+    
+}
+
+.client-icon {
+    width: 170px;
+    height: 92px;
+    padding: 16px 32px;
+    border: 1px solid var(--list-project-color);
+    border-radius: 4px;
+    fill: var(--social-icon);
+    
+}
+
+.client-icon:hover,
+.client-icon:focus {
+fill: var(--accent-text-color);
+border: 1px solid var(--accent-text-color);
+}
+
+
 
 /* footer */
 
@@ -418,7 +474,7 @@ ul {
   |============================
 */
 
-/*Main*/
+/* Main */
 
 .list-main-portfolio {
     display: flex;            
@@ -450,7 +506,7 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     background-color: var(--team-background-color);
-    color: var(--title-text-color);
+    color: var(--title-text-color);    
 }
 
 .button-portfolio:hover,
@@ -458,6 +514,9 @@ ul {
     background-color: var(--accent-background-color);
     color: var(--secondary-text-color);
     cursor: pointer;
+    box-shadow: 0px 2px 2px 0px #0000001F;
+    box-shadow: 0px 1px 2px 0px #00000014;
+    box-shadow: 0px 3px 1px 0px #0000001A;
 }
 
 .main-portfolio {
